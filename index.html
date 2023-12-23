@@ -22,7 +22,15 @@
     </nav>
 
     <div class="container mt-4">
-        <h2 class="mb-3">Featured Products</h2>
+        <input class="form-control mb-3" id="search-input" type="text" placeholder="Search products...">
+
+        <div class="btn-group mb-3" role="group">
+            <button type="button" class="btn btn-secondary" onclick="filterCategory('all')">All</button>
+            <button type="button" class="btn btn-secondary" onclick="filterCategory('category1')">Category 1</button>
+            <button type="button" class="btn btn-secondary" onclick="filterCategory('category2')">Category 2</button>
+            <!-- More categories as needed -->
+        </div>
+
         <div class="row" id="product-list">
             <!-- Product items will be listed here -->
         </div>
