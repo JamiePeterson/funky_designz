@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
 }
 
@@ -21,4 +21,8 @@ header {
     margin: 10px;
     padding: 20px;
     text-align: center;
+}
+ */
+.product-card {
+    margin-bottom: 20px;
 }
